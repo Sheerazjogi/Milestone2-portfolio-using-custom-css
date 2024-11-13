@@ -86,7 +86,7 @@ export default function Home() {
 
     <section className="home" id="home">
       <div className="content">
-        <h1>Hi, I'm <span>Mahnoor Shaikh</span></h1>
+        <h1>Hi, I&rsquo;m <span>Mahnoor Shaikh</span></h1>
         <div className="title">
           <h3>Frontend Developer</h3>
         </div>
@@ -124,11 +124,11 @@ export default function Home() {
       <div className="aboutContent">
         <h3>Know Who Am I?</h3>
         <p>
-          I am Mahnoor, an IT Professional with a Master's degree in Information
-          Technology from Sindh Agriculture University, Tandojam. Now, I'm
+          I am Mahnoor, an IT Professional with a Master&rsquo;s degree in Information
+          Technology from Sindh Agriculture University, Tandojam. Now, I&rsquo;m
           studying Advance course Web 3.0, Metaverse, and GenAI at Governor
           House. I create websites that are easy to use, look great, and work
-          well on all devices.Let's work together to create something amazing!
+          well on all devices.Let&rsquo;s work together to create something amazing!
         </p>
 
         <div className="btns aboutBtns">
@@ -220,7 +220,7 @@ export default function Home() {
           <div className="year">
                 <i className="bx bxs-calendar"></i>05-2023 - 09-2023
                 </div>
-                <h3>Accountant - Mother’s Lap School System, Hyderabad</h3>
+                <h3>Accountant - Mother&rsquo;s Lap School System, Hyderabad</h3>
                 <p>
                   Responsible for managing financial transactions, preparing
                   financial statements, and ensuring compliance with accounting
@@ -260,7 +260,7 @@ export default function Home() {
                 <Image src={half} alt="project1" />
                   <h3>Figma Website to HTML</h3>
                   <p>
-                  I'm excited to share that I recently completed a Figma design as part of a hackathon project by focusing on accurately recreating layouts and user interface elements.
+                  I&rsquo;m excited to share that I recently completed a Figma design as part of a hackathon project by focusing on accurately recreating layouts and user interface elements.
                   </p>
                   <button>
                     <a
@@ -274,7 +274,7 @@ export default function Home() {
               <Image src={half1} alt="project2" />
                   <h3>Blogging Website</h3>
                   <p>
-                  I'm thrilled to showcase my latest project - a  blogging website that showcases my skills in web development.  I aimed to create an exceptional user experience.
+                  I&rsquo;m thrilled to showcase my latest project - a  blogging website that showcases my skills in web development.  I aimed to create an exceptional user experience.
 
                   </p>
                   <button>
