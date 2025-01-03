@@ -1,9 +1,8 @@
 "use client"; // This is a client component
 import Image from "next/image";
-import profile from "@/app/image/mahnoor.jpg"
+import profile from "@/app/image/sheeraz.jpg"
 import half1 from "@/app/image/half blog.png"
 import half2 from "@/app/image/half resume.png"
-import half from "@/app/image/half.png"
 import { useState } from 'react';
 import Link from "next/link";
 
@@ -84,9 +83,9 @@ export default function Home() {
         </div>
       </nav>
 
-    <section className="home" id="home">
+      <section className="home" id="home">
       <div className="content">
-        <h1>Hi, I&rsquo;m <span>Mahnoor Shaikh</span></h1>
+        <h1>Hi, I&rsquo;m <span>Sheeraz Ahmed jogi</span></h1>
         <div className="title">
           <h3>Frontend Developer</h3>
         </div>
@@ -96,15 +95,15 @@ export default function Home() {
           using HTML, CSS, Javascript and modern frontend frameworks.
         </p>
         <div className="btns">
-          <a href="https://www.linkedin.com/in/mahnoor-shaikh/" className="btn"
+          <a href="https://linkedin.com/in/sheeraz-ahmed className=" 
             >Connect Me</a>
           <a href="#" className="btn">Hired Me</a>
         </div>
 
         <div className="socialIcon">
-          <a href="https://github.com/MAHNOORSHK"
+          <a href="https://github.com/Sheerazjogi"
             ><i className="bx bxl-github"></i></a>
-          <a href="https://www.linkedin.com/in/mahnoor-shaikh/"
+          <a href="https://linkedin.com/in/sheeraz-ahmed"
             ><i className="bx bxl-linkedin"></i></a>
           <a href="https://www.facebook.com"><i className="bx bxl-facebook"></i></a>
         </div>
@@ -124,8 +123,8 @@ export default function Home() {
       <div className="aboutContent">
         <h3>Know Who Am I?</h3>
         <p>
-          I am Mahnoor, an IT Professional with a Master&rsquo;s degree in Information
-          Technology from Sindh Agriculture University, Tandojam. Now, I&rsquo;m
+          I am Sheeraz, an IT Professional with a intermediate&rsquo;s degree in pre engineering
+          from Superior science college,khairpur mirs . Now, I&rsquo;m
           studying Advance course Web 3.0, Metaverse, and GenAI at Governor
           House. I create websites that are easy to use, look great, and work
           well on all devices.Let&rsquo;s work together to create something amazing!
@@ -142,47 +141,14 @@ export default function Home() {
       <div className="educationRow">
         <div className="educationColumn">
           <h3 className="title">Education</h3>
-
-          <div className="educationSec">
-            <div className="educationContent">
-              <div className="study">
-                <div className="year">
-                  <i className="bx bxs-calendar"></i>2021 - 2023
-                </div>
-                <h3>MSIT Degree - Sindh Agriculture University, Tandojam</h3>
-                <p>
-                  This study aimed to develop a machine learning experiences
-                  from Amazon product reviews. The primary objective was to
-                  classify reviews as positive, negative, or neutral, and
-                  identify key factors influencing customer satisfaction.
-                </p>
-              </div>
-            </div>
+          </div>
 
             <div className="educationContent">
               <div className="study">
                 <div className="year">
-                  <i className="bx bxs-calendar"></i>2017 - 2021
+                  <i className="bx bxs-calendar"></i>2024 - 2022
                 </div>
-                <h3>BSIT Degree - Sindh Agriculture University, Tandojam</h3>
-                <p>
-                  This study aimed to develop the Motor Vehicles Detection and
-                  tracking system is a project which is consist of a desktop app
-                  to detect the unauthorized motor vehicle and save data in
-                  firebase cloud, as well as in flies. Andriod app through which
-                  we will track down those unauthorizedmotor vehicles. GPS
-                  module for real-time location of those unauthorized motor
-                  vehicle.
-                </p>
-              </div>
-            </div>
-
-            <div className="educationContent">
-              <div className="study">
-                <div className="year">
-                  <i className="bx bxs-calendar"></i>2014 - 2017
-                </div>
-                <h3>HSC - Govt. Nazerathe Girls College, Hyderabad</h3>
+                <h3>HSC - Govt.superior science college, khairpur</h3>
                 <p>
                   Throughout my studies, I developed strong problem-solving
                   skills, logical reasoning, and a passion for technology.
@@ -190,85 +156,14 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
+        </section>
 
-        <div className="educationColumn">
-          <h3 className="title">Experience</h3>
-          <div className="educationSec">
-          <div className="educationContent">
-              <div className="study">
-                <div className="year">
-                <i className="bx bxs-calendar"></i>09-2023 - Continue
-                </div>
-                <h3>
-                  Computer Lab Assistant - Quaid-e-Azam Rangers School &
-                  College, Hyderabad
-                </h3>
-                <p>
-                  Assist students, faculty, and staff in computer labs,
-                  providing technical suppport, maintaining lab equipment, and
-                  ensuring a productive learning environment. <br />
-                  QRS&C is to provide higher standard of education to the
-                  students. Their fundamental goal is to help students learn and
-                  thrive to the best of their abilities.
-                </p>
-              </div>
-            </div>
-
-          <div className="educationContent">
-            <div className="study">
-          <div className="year">
-                <i className="bx bxs-calendar"></i>05-2023 - 09-2023
-                </div>
-                <h3>Accountant - Mother&rsquo;s Lap School System, Hyderabad</h3>
-                <p>
-                  Responsible for managing financial transactions, preparing
-                  financial statements, and ensuring compliance with accounting
-                  standards. <br />
-                  MLS aims to help its students explore the world around them as
-                  well as their own capabilities.
-                </p>
-              </div>
-            </div>
-
-            <div className="educationContent">
-              <div className="study">
-                <div className="year">
-                  <i className="bx bxs-calendar"></i>11-2021 - 12-2022
-                </div>
-                <h3>
-                  Computer And Math Teacher - Discovery School System, Tandojam
-                </h3>
-                <p>
-                  The Sindh Education Foundation, was established 1992. The
-                  Sindh Education Foundation aims to enhance educational quality
-                  and access for the marginalized in.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <section>
       <div className="projects" id="projects">
         <h2 className="heading">My <span>Projects</span></h2>
 
-        <div className="project-list">
-            <div className="project">
-                <Image src={half} alt="project1" />
-                  <h3>Figma Website to HTML</h3>
-                  <p>
-                  I&rsquo;m excited to share that I recently completed a Figma design as part of a hackathon project by focusing on accurately recreating layouts and user interface elements.
-                  </p>
-                  <button>
-                    <a
-                      href="https://figma-design1-hackathon-assignment6.vercel.app/"
-                      target="_blank"
-                      >View Project</a>
-                  </button>
-              </div>
+       
 
               <div className="project">
               <Image src={half1} alt="project2" />
@@ -279,7 +174,7 @@ export default function Home() {
                   </p>
                   <button>
                     <a
-                      href="https://cards-blogs-responsive-website-assignment4-5.vercel.app/"
+                      href="https://cards-blogs-responsive-website-4-5assigment.vercel.app/"
                       target="_blank"
                       >View Project</a>
                   </button>
@@ -293,7 +188,7 @@ export default function Home() {
                   </p>
                   <button>
                     <a
-                      href="https://resume-builder-hackathon-milestones-3.vercel.app/"
+                      href="https://resume-builder-hackthon-giaic-rlup.vercel.app/"
                       target="_blank"
                       >View Project</a>
                   </button>
@@ -301,7 +196,7 @@ export default function Home() {
 
           
         </div>
-      </div>
+      
     </section>
 
     <section className="skills" id="skills">
@@ -424,7 +319,7 @@ export default function Home() {
 
     <footer className="footer">
       <div className="footerText">
-        <p>Copyright &copy; Nov, 2024 by Mahnoor Shaikh</p>
+        <p>Copyright &copy;  2024 by Sheeraz ahmed jogi</p>
       </div>
 
       <div className="footerIcons">
@@ -434,6 +329,4 @@ export default function Home() {
       </div>
     </footer>
     </>
-
-  );
-}
+  )};

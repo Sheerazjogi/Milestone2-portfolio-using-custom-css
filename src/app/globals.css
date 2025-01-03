@@ -14,20 +14,20 @@
 }
 
 body{
-  background-color: #222831 ;
-  color: #f0f4f8;
+  background-color: #14181f ;
+  color: #ffffff;
 }
 
 .logo{
   font-size: 2.5rem;
-  color: #f0f4f8;
+  color: #ebf5ff;
   font-weight: 600;
 }
 
 section{
   min-height: 100vh;
   padding: 2rem 5% 2rem;
-  border-bottom: 2px solid #00ADB5;
+  border-bottom: 2px solid #4cf3fc;
 }
 
 .home{
@@ -140,7 +140,7 @@ section{
   background-color: transparent;
   align-items: center;
   margin-left:50px ;
-  background-image: url("./image/mahnoor.jpg");
+  background-image: url("./image/sheeraz.jpg");
   background-size: cover;
   background-position: center ;
   transition: .3s;
@@ -265,7 +265,7 @@ span{
   left: -1.1rem;
   width: 2rem;
   height: 2rem;
-  background-color: #00ADB5;
+  background-color: #80edf3;
   border-top-left-radius: 15px ;
   border-bottom-right-radius:15px;
 }
@@ -279,12 +279,12 @@ span{
 }
 
 .educationContent .study:hover{
-  background-color: #393E46;
+  background-color: #91a8cc;
 }
 
 .educationContent .study .year{
   font-size: 1.5rem;
-  color: #00ADB5;
+  color: #74e7ed;
   padding-bottom: .5rem;
 }
 
@@ -294,7 +294,7 @@ span{
 
 .study h3{
   font-size: 1.3rem;
-  color: #00ADB5;
+  color: #88d4d8;
 }
 
 .study p{
@@ -334,7 +334,7 @@ span{
 
 .project h3{
   font-size: larger;
-  color: #00ADB5;
+  color: #84e1e6;
 }
 
 .project img {
@@ -357,7 +357,7 @@ span{
 .projects button{
   height: 50px;
   width: 130px;
-  background-color: #00ADB5;
+  background-color: #50c7c9;
   border: .2rem solid #00ADB5;
   border-radius: 8px;
   margin-top: 20px;
@@ -367,7 +367,7 @@ span{
 .projects button:hover{
   color: #00ADB5;
   background-color: #222831;
-  
+
 }
 
 .projects button a{
@@ -667,7 +667,7 @@ span{
   .skillRow{
       margin-left:90px ;
   }
-  
+
 }
 
 @media (max-width: 520px){
